@@ -1,34 +1,12 @@
 
 
 #wrapper{
- width:1400;
- height:0;
+ width:1247px;
+ height:auto;
 }
 
 
 
-.Product-img-container {
-    position: relative;
-    width: 300px; /* Adjust as needed */
-    height: auto;
-}
-
-
-.Natural-products{
-    width: 376;
-    height: 276;
-    top: 1443px;
-    left: 440px;
-    
-
-}
-.popular-products {
-    height:615px;
-    width:615px;
-    display: flex;
-    flex-wrap: wrap; /* ירדו שורה במסכים קטנים */
-    align-content:flex-start;    
-  }
   
   header {
     display: flex;
@@ -57,7 +35,31 @@
     color: #333;
     font-weight: bold;
   }
+  #cover-photo {
+   width: 1247px;
+   height: 500px;
+   top: 110px;
+    background-image: url(images/picture.jpg);
+    background-size: cover;
+
+  } 
+  #about{
+  width: 1195px;
+  height: 382px;
+  margin-left: 32px;
+  margin: top 5px;;
   
+  }
+  
+ .Card-Footer{
+   display: flex;
+ }
+ .Popular-Products{
+
+   display: flex;
+   flex-wrap: wrap;
+ }    
+ 
 /*
 .play-button{
     background: url("C:\Users\lenys\Downloads\shopping-basket 4.png");
@@ -67,7 +69,7 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;dip
 }
 
 header, main, footer, nav, aside, section, div  {
