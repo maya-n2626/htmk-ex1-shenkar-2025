@@ -1,31 +1,64 @@
-body{
-margin:0;
-padding: 0;
-}
-header{
 
 
-}
-nav{
-
-
-}
-#logo{
- width:40px;
- height:0px auto;
-}
 #wrapper{
- width:0;
+ width:1400;
  height:0;
 }
 
 
 
-main>section>img{
-
+.Product-img-container {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: auto;
 }
 
 
+.Natural-products{
+    width: 376;
+    height: 276;
+    top: 1443px;
+    left: 440px;
+    
+
+}
+.popular-products {
+    height:615px;
+    width:615px;
+    display: flex;
+    flex-wrap: wrap; /* ירדו שורה במסכים קטנים */
+    align-content:flex-start;    
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between; /* מרווח בין הלוגו לקישורים */
+    align-items: center; /* ליישור אנכי באמצע */
+    padding: 20px 40px;
+    background-color: white; /* או מה שמתאים לך */
+  }
+  
+  .Logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* רווח בין התמונה לטקסט */
+  }
+  
+  .logo img {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 50px;
+  }
+  
+  nav a{
+    margin-left: 170px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+/*
 .play-button{
     background: url("C:\Users\lenys\Downloads\shopping-basket 4.png");
     margin-left:56px;
@@ -49,8 +82,8 @@ header {
     height: 130px;
     background-color: greenyellow;  
     padding-top: 1px;/* TEMP */
-}
 
+/*
 #logo {
     display: block;
     background: url("../images/big-bang-theory-logo.png");
@@ -109,7 +142,7 @@ footer {
 }
 
 /* Inside main */
-
+/*
 main > section {
     background-color: #E8C59C;
     height: 100px;
@@ -171,3 +204,4 @@ main > section > p  {
         margin-top: 17px;
     }
 }
+*/
