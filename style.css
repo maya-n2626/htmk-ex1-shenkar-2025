@@ -3,6 +3,7 @@
 #wrapper{
  width:1247px;
  height:auto;
+ 
 }
 
 
@@ -101,16 +102,33 @@
     margin-top: 180px;
     padding: 0px;
     margin-bottom: 0px;
-    
- }
- .footer-column a{ 
-     display: block;
+    height: 287px;
     
  }
  
+ 
+ .footer-column a{ 
+     display: block;
+     margin-bottom: 15px;
+     width: 51px;
+     height: 22px;
+     white-space: nowrap;
+     width: 20px;
+     height: 20px;
+     margin-left: 32px;
+
+ }
+ 
  .social-icons{
+    margin-left: 32px;
     display: flex;
     gap:10px;
+ }
+ .footer h3{
+    margin-left: 32px;
+ }
+ .copyright{
+    margin-left: 32px;
  }
  .images
  {
@@ -156,20 +174,37 @@
   }
   .List-of-products{
     margin-left: 32px;
+    width: 346px;
+    height: 448px;
+
   }
 
   .List-of-products ul {
     list-style: none;
     padding: 0;
     margin:0px;
+    width: 278px;
+    height: 82px;
   }
-  
+  .List-of-products span{
+    width: 207px;
+    height: 14px;
+    margin-left: 48px;
+
+  }
   .List-of-products li {
     position: relative;
     padding-left: 40px; /* מקום לאייקונים */
-    margin-bottom: 20px;
+    
     display: flex;
     align-items: center;
+    width: 278px;
+    height: 82px;
+    margin-top: 10px;
+
+
+    
+
   }
   
   /* האייקון הראשון - בסיס */
@@ -179,11 +214,12 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+    width: 82px;
+    height: 82px;
     background-image: url('images/circle1.png'); /* התמונה הבסיסית */
     background-size: cover;
     background-repeat: no-repeat;
+    
     
   }
   
@@ -191,10 +227,10 @@
   .List-of-products li::after {
     content: "";
     position: absolute;
-    top: 10%; /* מעט מעל האמצע */
-    left: 8px; /* זז טיפה ימינה מהאמצע */
-    width: 15px;
-    height: 15px;
+    top: 18%; /* מעט מעל האמצע */
+    left: 29px; /* זז טיפה ימינה מהאמצע */
+    width: 29px;
+    height: 42px;
     background-image: url('images/Group.png'); /* תמונת שכבה עליונה */
     background-size: cover;
     background-repeat: no-repeat;
@@ -204,7 +240,7 @@
     color:  rgb(57, 109, 6);
 
   }
-  .
+  
 
   
 
