@@ -15,13 +15,23 @@
        align-items: center; /* ליישור אנכי באמצע */
        padding: 20px 40px;
        background-color: white;
+       width: 1046pxpx;
+height: 64;
+top: 32px;
+left: 32px;
+
      }
      
      .Logo {
        display: flex;
        align-items: center;
-       gap: 10px; /* רווח בין התמונה לטקסט */
-     }
+       gap: 10px;
+       width: 252px;
+       height: 64px;
+       top: 32px;
+       left: 32px;
+
+    }
      
      .logo img {
        margin: 0;
@@ -35,6 +45,11 @@
        text-decoration: none;
        color:rgb(43, 81, 6);
        font-weight: bold;
+       width: 84px;
+        height: 41px;
+       top: 48px;
+       left: 419px;
+
      }
      #cover-photo h1{
        margin-left:32px;
@@ -154,13 +169,13 @@
         width: 315px;
        height: 80px;
        margin-left: 64px;
-
+       text-align: justify;
+       hyphens: auto;
     }  
     .cards{
         display: flex;
         flex-wrap: wrap;
-        
-        
+       gap:20px;
     }
     .background-img {
        position: absolute;
@@ -219,14 +234,18 @@
     .images
     {
        display: flex;
-       border: 3px solid rgb(57, 109, 6);
-        /* ליישור אנכי באמצע */
        justify-content: space-between;
        width: 1195px;
        gap:40px;
       margin-left: 32px;
      
        
+    }
+    .images img{
+        width: 300px;
+      height: 300px;
+      justify-content:space-between;
+      border: 4px solid rgb(57, 109, 6);
     }
        .your-choice {
            margin-left: 32px;
