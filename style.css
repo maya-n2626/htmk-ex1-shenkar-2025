@@ -1,313 +1,399 @@
 
 
 #wrapper{
- width:1247px;
- height:auto;
- 
-}
-
-
-
-  
-  header {
-    display: flex;
-    justify-content: space-between; /* מרווח בין הלוגו לקישורים */
-    align-items: center; /* ליישור אנכי באמצע */
-    padding: 20px 40px;
-    background-color: white;
-  }
-  
-  .Logo {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* רווח בין התמונה לטקסט */
-  }
-  
-  .logo img {
-    margin: 0;
-    padding: 0;
-    width: auto;
-    height: 50px;
-  }
-  
-  nav a{
-    margin-left: 170px;
-    text-decoration: none;
-    color:rgb(43, 81, 6);
-    font-weight: bold;
-  }
-  #cover-photo h1{
-    margin-left:32px;
-    color: rgb(57, 109, 6);
-
-  }
-  #cover-photo p{
-    margin-left: 32px;
-  }
-  #cover-photo {
-   width: 1255px;
-   height: 500px;
-   top: 110px;
-   max-width: 100%;
-    background-image: url(images/picture.jpg);
-    background-size: cover;
-
-  } 
-  #about{
-  width: 1195px;
-  height: 382px;
-  margin-left: 32px;
-  margin: top 5px;;
-  
-  }
-   #about h3{
-    color: rgb(57, 109, 6);
-
+    width:1247px;
+    height:auto;
+    
    }
- .Card-Footer{
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  padding: px;
- }
- .Price{
- margin: 0;
- font-size: 30px;
- font-weight: bold;
- }
- .background-img {
-    position: absolute;
-    object-fit: contain; /* לשמירה על יחס התמונה */
-    margin-left: 150px;
-  }
- .Card-Footer img{
-  position: absolute;
- }
- .Popular-Products{
-   margin-left: 30px;
-   display: flex;
-   background-color: rgb(57, 109, 6);
-   flex-wrap: wrap;
-   align-content: flex-start;
-   width: 600px;
-   height: 1096px; 
- }    
- 
- .footer{
-    display: flex;
-    background-color: rgb(57, 109, 6);
-    width: 1255px;
-    height: 200px;
-    margin-top: 180px;
-    padding: 0px;
-    margin-bottom: 0px;
-    height: 287px;
-    
- }
- 
- 
- .footer-column a{ 
-     display: block;
-     margin-bottom: 15px;
-     width: 51px;
-     height: 22px;
-     white-space: nowrap;
-     width: 20px;
-     height: 20px;
+   
+   
+   
+     
+     header {
+       display: flex;
+       justify-content: space-between; /* מרווח בין הלוגו לקישורים */
+       align-items: center; /* ליישור אנכי באמצע */
+       padding: 20px 40px;
+       background-color: white;
+     }
+     
+     .Logo {
+       display: flex;
+       align-items: center;
+       gap: 10px; /* רווח בין התמונה לטקסט */
+     }
+     
+     .logo img {
+       margin: 0;
+       padding: 0;
+       width: auto;
+       height: 50px;
+     }
+     
+     nav a{
+       margin-left: 170px;
+       text-decoration: none;
+       color:rgb(43, 81, 6);
+       font-weight: bold;
+     }
+     #cover-photo h1{
+       margin-left:32px;
+       color: rgb(57, 109, 6);
+   
+     }
+     #cover-photo p{
+       margin-left: 32px;
+     }
+     #cover-photo {
+      width: 1255px;
+      height: 500px;
+      top: 110px;
+      max-width: 100%;
+       background-image: url(images/picture.jpg);
+       background-size: cover;
+   
+     } 
+     #about{
+     width: 1195px;
+     height: 382px;
      margin-left: 32px;
-
- }
- 
- .social-icons{
-    margin-left: 32px;
-    display: flex;
-    gap:10px;
- }
- .footer h3{
-    margin-left: 32px;
- }
- .copyright{
-    margin-left: 32px;
- }
- .images
- {
-    display: flex;
-    border: 3px solid rgb(57, 109, 6);
-     /* ליישור אנכי באמצע */
-    justify-content: space-between;
-    width: 1195px;
-    gap:40px;
-   margin-left: 32px;
-  
-    
- }
-    .your-choice {
-        margin-left: 32px;
-        width: 346;
-      height: 448;
-    top: 460px;
-    left: 32px;
+     margin: top 5px;;
+     
+     }
+      #about h3{
+       color: rgb(57, 109, 6);
+   
+      }
+    .Card-Footer{
+       display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+     padding: px;
+    }
+    .card{
+        position: relative;
+        width: 376px;
+         height: 496px;
+       margin-left: 32px;
+      border-radius: 38px;
+       background-color:  rgb(57, 109, 6);
+       
+    }
+    .card img{
+        width: 376px;
+        height: 276px;
+        border-radius: 38px;
+        display: block;
 
     }
- 
-  .overlay-img {
+  
+    .image-container {
+        position: relative; /* כדי שהתמונה של הלב תהיה יחסית אליה */
+      }
+      
+      
+      .heart-icon {
+        position: absolute;
+        top:20px;
+        right: 20px; 
+        width: 30px; 
+        height:20px;
+        object-fit: contain; 
+        pointer-events: none;
+        z-index: 1; 
+        max-width:40px; /* הגבלה למקסימום רוחב */
+        max-height: 40px; /* הגבלה למקסימום גובה */
+        transform: translate(10%, -10%);
+        border-radius: 0px; 
+      }
+      
+    .price-cart {
+        width:300px;
+      height: 60px;
+      margin-left: 64px;
+      
+        display: flex;
+       gap:40px;
+    }
+    .cart-container {
+        position: relative;
+    }
+      .price-cart span{
+        width: 136px;
+        height: 45px;
+       
+        
+      }
+.circle-cart {
+
     position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 30px; /* גודל הלב */
-    height: 30px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
 
-  body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-  }
- 
-  .List-of-products h3{
-    margin-left: 3px;
-    color:  rgb(57, 109, 6);
-  }
-  .List-of-products{
-    margin-left: 32px;
-    width: 346px;
-    height: 448px;
-
-  }
-
-  .List-of-products ul {
-    list-style: none;
-    padding: 0;
-    margin:0px;
-    width: 278px;
-    height: 82px;
-  }
-  .List-of-products span{
-    width: 207px;
-    height: 14px;
-    margin-left: 48px;
-
-  }
-  .List-of-products li {
-    position: relative;
-    padding-left: 40px; /* מקום לאייקונים */
-    
-    display: flex;
-    align-items: center;
-    width: 278px;
-    height: 82px;
-    margin-top: 10px;
-
-
-    
-
+    max-width: 63px;
+    max-height: 63px;
+    bottom: 28px;
   }
   
-  /* האייקון הראשון - בסיס */
-  .List-of-products li::before {
-    content: "";
+  .shopping-basket {
+    
     position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 82px;
-    height: 82px;
-    background-image: url('images/circle1.png'); /* התמונה הבסיסית */
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-  }
-  
-  /* האייקון השני - קטן יותר, מעל הראשון */
-  .List-of-products li::after {
-    content: "";
-    position: absolute;
-    top: 18%; /* מעט מעל האמצע */
-    left: 29px; /* זז טיפה ימינה מהאמצע */
-    width: 29px;
-    height: 42px;
-    background-image: url('images/Group.png'); /* תמונת שכבה עליונה */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .your-choice h3{
-    color:  rgb(57, 109, 6);
+    bottom: 42px;
+    left: 16px;
+    max-width: 31px;
+    max-height: 31px;
 
   }
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+    .card-content h3{
+        margin-left: 64px;
+        width: 221px;
+         height: 38px;
+
+
+    }
+    .card-content p{
+        width: 315px;
+       height: 80px;
+       margin-left: 64px;
+
+    }  
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .background-img {
+       position: absolute;
+       object-fit: contain; /* לשמירה על יחס התמונה */
+       margin-left: 150px;
+     }
+    .Card-Footer img{
+     position: absolute;
+    }
+    .Popular-Products{
+      margin-left: 30px;
+      display: flex;
+      background-color: rgb(57, 109, 6);
+      flex-wrap: wrap;
+      align-content: flex-start;
+      width: 600px;
+      height: 1096px; 
+    }    
     
+    .footer{
+       display: flex;
+       background-color: rgb(57, 109, 6);
+       width: 1255px;
+       height: 200px;
+       margin-top: 180px;
+       padding: 0px;
+       margin-bottom: 0px;
+       height: 287px;
+       
+    }
+    
+    
+    .footer-column a{ 
+        display: block;
+        margin-bottom: 15px;
+        width: 51px;
+        height: 22px;
+        white-space: nowrap;
+        width: 20px;
+        height: 20px;
+        margin-left: 32px;
+   
+    }
+    
+    .social-icons{
+       margin-left: 32px;
+       display: flex;
+       gap:10px;
+    }
+    .footer h3{
+       margin-left: 32px;
+    }
+    .copyright{
+       margin-left: 32px;
+    }
+    .images
+    {
+       display: flex;
+       border: 3px solid rgb(57, 109, 6);
+        /* ליישור אנכי באמצע */
+       justify-content: space-between;
+       width: 1195px;
+       gap:40px;
+      margin-left: 32px;
+     
+       
+    }
+       .your-choice {
+           margin-left: 32px;
+           width: 346;
+         height: 448;
+       top: 460px;
+       left: 32px;
+   
+       }
+    
+     .overlay-img {
+       position: absolute;
+       top: 10px;
+       right: 10px;
+       width: 30px; /* גודל הלב */
+       height: 30px;
+       cursor: pointer;
+       transition: 0.3s;
+     }
+   
+     body {
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+       margin: 0;
+     }
+    
+     .List-of-products h3{
+       margin-left: 3px;
+       color:  rgb(57, 109, 6);
+     }
+     .List-of-products{
+       margin-left: 32px;
+       width: 346px;
+       height: 448px;
+   
+     }
+   
+     .List-of-products ul {
+       list-style: none;
+       padding: 0;
+       margin:0px;
+       width: 278px;
+       height: 82px;
+     }
+     .List-of-products span{
+       width: 207px;
+       height: 14px;
+       margin-left: 48px;
+   
+     }
+     .List-of-products li {
+       position: relative;
+       padding-left: 40px; /* מקום לאייקונים */
+       
+       display: flex;
+       align-items: center;
+       width: 278px;
+       height: 82px;
+       margin-top: 10px;
+   
+   
+       
+   
+     }
+     
+     /* האייקון הראשון - בסיס */
+     .List-of-products li::before {
+       content: "";
+       position: absolute;
+       top: 50%;
+       left: 0;
+       transform: translateY(-50%);
+       width: 82px;
+       height: 82px;
+       background-image: url('images/circle1.png'); /* התמונה הבסיסית */
+       background-size: cover;
+       background-repeat: no-repeat;
+       
+       
+     }
+     
+     /* האייקון השני - קטן יותר, מעל הראשון */
+     .List-of-products li::after {
+       content: "";
+       position: absolute;
+       top: 18%; /* מעט מעל האמצע */
+       left: 29px; /* זז טיפה ימינה מהאמצע */
+       width: 29px;
+       height: 42px;
+       background-image: url('images/Group.png'); /* תמונת שכבה עליונה */
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+     
+     .your-choice h3{
+       color:  rgb(57, 109, 6);
+   
+     }
+     
+   
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+     
+       
