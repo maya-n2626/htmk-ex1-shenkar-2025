@@ -343,10 +343,24 @@ left: 32px;
      
      .your-choice h3{
        color:  rgb(57, 109, 6);
-   
+       width: 275px;
+       height: 40px;
+       top: 940px;
+       left: 32px;
+       
      }
      
-   
+     .your-choice{
+        width: 1136px;
+       height: 575px;
+        margin-left: 32px;
+
+     }
+     .your-choice img{
+        width: 1136px;
+       height: 503px;
+
+     }
      
    
    
